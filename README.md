@@ -1,0 +1,2 @@
+# Animal_Face_Classification
+The pipeline fit method takes input data and transforms it in steps by sequentially calling the fit_transform method of each transformer. The data is passed from output to input until it reaches the end or the estimator if there is one. When the last item in the pipeline is an estimator, its fit method is called to train the model using the transformed data.  The resulting object can be used directly to make predictions. Test data is passed into the predict method, which calls the transform methods, followed by predict in the final step.
